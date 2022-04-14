@@ -8,34 +8,34 @@
 
 ### API endpoints:
 * List all boards or create a new board
-<code>GET POST http://127.0.0.1:8000/boards</code>  
+<br><code>GET POST http://127.0.0.1:8000/boards</code>  
 
 * Get details of a board, update or delete board
-<code>GET PUT PATCH DELETE http://127.0.0.1:8000/boards/int:board_id</code>
+<br><code>GET PUT PATCH DELETE http://127.0.0.1:8000/boards/int:board_id</code>
 
 * List all tasks under the board or create a new tasks
-<code>GET POST http://127.0.0.1:8000/boards/int:board_id/tasks</code>
+<br><code>GET POST http://127.0.0.1:8000/boards/int:board_id/tasks</code>
 
 * Get details of a task, update or delete tasks
-<code>GET PUT PATCH DELETE  http://127.0.0.1:8000/boards/int:board_id/tasks/int:tasks_id</code>
+<br><code>GET PUT PATCH DELETE  http://127.0.0.1:8000/boards/int:board_id/tasks/int:tasks_id</code>
 
 * List all the teams or create a new.
-<code>GET POST http://127.0.0.1:8000/teams</code>
+<br><code>GET POST http://127.0.0.1:8000/teams</code>
 
 * Get details of a team, update or delete teams
-<code>GET PUT PATCH DELETE http://127.0.0.1:8000/teams/int:team_id</code>
+<br><code>GET PUT PATCH DELETE http://127.0.0.1:8000/teams/int:team_id</code>
 
 * List all the users of a team
-<code>GET http://127.0.0.1:8000/teams/int:team_id/users</code>
+<br><code>GET http://127.0.0.1:8000/teams/int:team_id/users</code>
 
 * Get details of a user, update or delete user
-<code>GET PUT PATCH DELETE http://127.0.0.1:8000/teams/int:team_id/users/int:user_id</code>
+<br><code>GET PUT PATCH DELETE http://127.0.0.1:8000/teams/int:team_id/users/int:user_id</code>
 
 * List all the users or create a new user
-<code>GET POST http://127.0.0.1:8000/users</code>
+<br><code>GET POST http://127.0.0.1:8000/users</code>
 
 * Get details of a user, update or delete user
-<code>GET PUT PATCH DELETE http://127.0.0.1:8000/users/int:user_id</code>
+<br><code>GET PUT PATCH DELETE http://127.0.0.1:8000/users/int:user_id</code>
 
 
 
